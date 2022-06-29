@@ -1,15 +1,15 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams\Tests;
+namespace Staffkojinpro\MicrosoftTeams\Tests;
 
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;
 use Mockery;
-use NotificationChannels\MicrosoftTeams\Exceptions\CouldNotSendNotification;
-use NotificationChannels\MicrosoftTeams\MicrosoftTeams;
-use NotificationChannels\MicrosoftTeams\MicrosoftTeamsChannel;
-use NotificationChannels\MicrosoftTeams\MicrosoftTeamsMessage;
+use Staffkojinpro\MicrosoftTeams\Exceptions\CouldNotSendNotification;
+use Staffkojinpro\MicrosoftTeams\MicrosoftTeams;
+use Staffkojinpro\MicrosoftTeams\MicrosoftTeamsChannel;
+use Staffkojinpro\MicrosoftTeams\MicrosoftTeamsMessage;
 use PHPUnit\Framework\TestCase;
 
 /**

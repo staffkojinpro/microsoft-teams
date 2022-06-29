@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams;
+namespace Staffkojinpro\MicrosoftTeams;
 
 use Illuminate\Notifications\Notification;
 

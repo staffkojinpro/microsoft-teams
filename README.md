@@ -50,7 +50,7 @@ Next, if you're using Laravel _without_ auto-discovery, add the service provider
 ```bash
 'providers' => [
     // ...
-    NotificationChannels\MicrosoftTeams\MicrosoftTeamsServiceProvider::class,
+    Staffkojinpro\MicrosoftTeams\MicrosoftTeamsServiceProvider::class,
 ],
 ```
 
@@ -90,8 +90,8 @@ Now you can use the channel in your `via()` method inside the notification:
 
 ```php
 use Illuminate\Notifications\Notification;
-use NotificationChannels\MicrosoftTeams\MicrosoftTeamsChannel;
-use NotificationChannels\MicrosoftTeams\MicrosoftTeamsMessage;
+use Staffkojinpro\MicrosoftTeams\MicrosoftTeamsChannel;
+use Staffkojinpro\MicrosoftTeams\MicrosoftTeamsMessage;
 
 class SubscriptionCreated extends Notification
 {

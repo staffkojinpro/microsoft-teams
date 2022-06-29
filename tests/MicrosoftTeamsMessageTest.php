@@ -1,9 +1,9 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams\Test;
+namespace Staffkojinpro\MicrosoftTeams\Test;
 
-use NotificationChannels\MicrosoftTeams\Exceptions\CouldNotSendNotification;
-use NotificationChannels\MicrosoftTeams\MicrosoftTeamsMessage;
+use Staffkojinpro\MicrosoftTeams\Exceptions\CouldNotSendNotification;
+use Staffkojinpro\MicrosoftTeams\MicrosoftTeamsMessage;
 use PHPUnit\Framework\TestCase;
 
 /**
