@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams;
+namespace Staffkojinpro\MicrosoftTeams;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Container\Container;

@@ -1,6 +1,6 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams\Exceptions;
+namespace Staffkojinpro\MicrosoftTeams\Exceptions;
 
 use GuzzleHttp\Exception\ClientException;
 

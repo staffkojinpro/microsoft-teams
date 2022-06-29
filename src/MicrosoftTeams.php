@@ -1,11 +1,11 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams;
+namespace Staffkojinpro\MicrosoftTeams;
 
 use Exception;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\ClientException;
-use NotificationChannels\MicrosoftTeams\Exceptions\CouldNotSendNotification;
+use Staffkojinpro\MicrosoftTeams\Exceptions\CouldNotSendNotification;
 use Psr\Http\Message\ResponseInterface;
 
 class MicrosoftTeams

@@ -1,8 +1,8 @@
 <?php
 
-namespace NotificationChannels\MicrosoftTeams;
+namespace Staffkojinpro\MicrosoftTeams;
 
-use NotificationChannels\MicrosoftTeams\Exceptions\CouldNotSendNotification;
+use Staffkojinpro\MicrosoftTeams\Exceptions\CouldNotSendNotification;
 
 class MicrosoftTeamsMessage
 {
