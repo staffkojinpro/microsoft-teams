@@ -1,7 +1,7 @@
 {
-    "name": "laravel-notification-channels/microsoft-teams",
+    "name": "staffkojinpro/microsoft-teams",
     "description": "A Laravel Notification Channel for Microsoft Teams",
-    "homepage": "https://github.com/laravel-notification-channels/microsoft-teams",
+    "homepage": "https://github.com/staffkojinpro/microsoft-teams",
     "license": "MIT",
     "authors": [
         {
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\MicrosoftTeams\\": "src"
+            "Staffkojinpro\\MicrosoftTeams\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\MicrosoftTeams\\Test\\": "tests"
+            "Staffkojinpro\\MicrosoftTeams\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NotificationChannels\\MicrosoftTeams\\MicrosoftTeamsServiceProvider"
+                "Staffkojinpro\\MicrosoftTeams\\MicrosoftTeamsServiceProvider"
             ]
         }
     },
